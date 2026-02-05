@@ -73,7 +73,7 @@ class SideMenu extends ConsumerWidget {
             label: Text('Sucursales'),
           ),
           const NavigationDrawerDestination(
-              icon: Icon(Icons.playlist_add), label: Text('Telas')),
+              icon: Icon(Icons.playlist_add), label: Text('Productos')),
           const Padding(
             padding: EdgeInsets.fromLTRB(28, 16, 28, 10),
             child: Divider(),

@@ -15,7 +15,7 @@ class TelasScreen extends ConsumerWidget {
         : Screen1(
             backRoute: false,
             widget: _buildBody(telasState.telas,context),
-            title: 'Telas',
+            title: 'Productos',
             isGridview: false,
             onTap: () => context.push('/tela/0')
           );

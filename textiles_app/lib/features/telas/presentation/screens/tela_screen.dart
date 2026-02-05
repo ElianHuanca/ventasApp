@@ -17,7 +17,7 @@ class TelaScreen extends ConsumerWidget {
             ? const FullScreenLoader()
             : Screen1(
                 widget: [_telaInformation(telaState.tela!, context, ref)],
-                title: telaState.tela!.id == 0 ? 'Crear Tela' : 'Editar Tela',
+                title: telaState.tela!.id == 0 ? 'Crear Producto' : 'Editar Producto',
                 isGridview: false,
                 backRoute: true,
               ));

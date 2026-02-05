@@ -2,7 +2,6 @@ INSERT INTO usuarios(nombre,correo,password) VALUES
 ('Isela Huanca','ise@gmail.com','$2a$10$qAVkPAIHnamNzbDeMb94t.em.plQpqP8s/Bwy.LrZsCOqnWveg7He'),
 ('Mary Choque','mary@gmail.com','$2a$10$pyLUOKvtKEgB2PUyvCT.VO0Sm/2Lf3Y9zroRBg2ET8L6t5ja1n0rS');
 
-
 INSERT INTO sucursales (nombre,idusuarios) VALUES 
 ('Local D4-E4',1),
 ('Local F3-F4',2),
@@ -10,42 +9,42 @@ INSERT INTO sucursales (nombre,idusuarios) VALUES
 
 
 INSERT INTO telas(nombre,precxmen, precxmay, precxrollo,precxcompra,idusuarios) VALUES
-('Razo Suizo Licra', 30, 25, 23, 20,1),
-('Razo Suizo Rigido', 25, 20, 18, 15,1),
-('Lipiur 3D', 160, 130, 110, 100,1),
-('Mostazilla', 180, 150, 140, 110,1),
-('Lipiur', 130, 100, 85, 70,1),
-('Razo Doble Ancho', 20, 15, 14, 11,1),
-('Razo', 10, 8, 6, 5.5,1),
-('Tull Ramas',65,55,50, 40,1),
-('Blonda 15',15,12,10,8,1),
-('Blonda 20',20,15,12, 10,1),
-('Blonda 50',50,45,43, 35,1),
-('Tull Ilusion',10,8,6, 5.5,1),
-('Tull Licra',20,16,15,8,1),
-('Tull Frances',25,20,18,16,1),
-('Can Can',20,17,14,12,1),
-('Tull Maripozas LPZ',65,50,45,40,1),
-('Tull Americano', 20,17,15,11.5,1),
-('lipiur AG', 130,100,85,62,1),
-('Tull Perlado', 100,80,70,46,1),
-('Bonye', 10,8,6,5.5,1),
-('Tull Brilloso',23,18,15,12,1),
-('Lipiur IH',130,100,85,57,1),
-('Lipiur Blonda',60,50,45,40,1),
-('gasa',15,12,10,9,1),
-('Tull Ramas Ramada', 65,55,50,40,1);
+('Razo Suizo Licra', 30, 25, 23, 20,5),
+('Razo Suizo Rigido', 25, 20, 18, 15,5),
+('Lipiur 3D', 160, 130, 110, 100,5),
+('Mostazilla', 180, 150, 140, 110,5),
+('Lipiur', 130, 100, 85, 70,5),
+('Razo Doble Ancho', 20, 15, 14, 11,5),
+('Razo', 10, 8, 6, 5.5,5),
+('Tull Ramas',65,55,50, 40,5),
+('Blonda 15',15,12,10,8,5),
+('Blonda 20',20,15,12, 10,5),
+('Blonda 50',50,45,43, 35,5),
+('Tull Ilusion',10,8,6, 5.5,5),
+('Tull Licra',20,16,15,8,5),
+('Tull Frances',25,20,18,16,5),
+('Can Can',20,17,14,12,5),
+('Tull Maripozas LPZ',65,50,45,40,5),
+('Tull Americano', 20,17,15,11.5,5),
+('lipiur AG', 130,100,85,62,5),
+('Tull Perlado', 100,80,70,46,5),
+('Bonye', 10,8,6,5.5,5),
+('Tull Brilloso',23,18,15,12,5),
+('Lipiur IH',130,100,85,57,5),
+('Lipiur Blonda',60,50,45,40,5),
+('gasa',15,12,10,9,5),
+('Tull Ramas Ramada', 65,55,50,40,5);
 
 insert into ventas(fecha,idsucursales) values
-('14-06-2023',1),
-('17-06-2023',1),
-('21-06-2023',1),
-('24-06-2023',1),
-('28-06-2023',1),
-('01-07-2023',1),
-('05-07-2023',1),
-('08-07-2023',1),
-('12-07-2023',1);
+('2023-06-14',10),
+('2023-06-17',10),
+('2023-06-21',10),
+('2023-06-24',10),
+('2023-06-28',10),
+('2023-07-01',10),
+('2023-07-05',10),
+('2023-07-08',10),
+('2023-07-12',10);
 
 
 

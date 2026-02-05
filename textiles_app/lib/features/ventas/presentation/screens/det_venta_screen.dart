@@ -42,7 +42,7 @@ class DetVenta extends ConsumerWidget {
                         flex: 1,
                         child: DropdownMenu<Tela>(
                           width: MediaQuery.of(context).size.width * 0.93,
-                          hintText: 'Seleccione una Tela',
+                          hintText: 'Seleccione un Producto',
                           onSelected: (value) {
                             detVentaFormNotifier
                                 .onPrecxCompraChanged(value?.precxcompra ?? 0);

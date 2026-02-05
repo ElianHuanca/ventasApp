@@ -75,7 +75,7 @@ final goRouterProvider = Provider((ref) {
         ),
       ),
     ],
-    /* redirect: (context, state) {
+    redirect: (context, state) {
       final isGoingTo = state.matchedLocation;
       final authStatus = goRouterNotifier.authStatus;
 
@@ -98,6 +98,6 @@ final goRouterProvider = Provider((ref) {
       }
 
       return null;
-    }, */
+    },
   );
 });
