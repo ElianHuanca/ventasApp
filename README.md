@@ -3,7 +3,7 @@
 [English](./README.md) | [Español](./README.es.md) 
 
 Mobile application developed with Flutter, focused on the management of users, products, sales, and branches.
-The app follows Clean Architecture principles and consumes a REST API provided by a backend developed with Node.js and Express, ensuring scalability, maintainability, and separation of concerns.
+The application implements Clean Architecture and uses Riverpod for state management, consuming a REST API provided by a backend developed in Node.js with Express. This ensures a scalable, maintainable, and well-structured solution.
 
 ## Main Features
 

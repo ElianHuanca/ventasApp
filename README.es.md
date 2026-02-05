@@ -3,7 +3,7 @@
 [English](./README.md) | [Español](./README.es.md) 
 
 Aplicación móvil desarrollada con Flutter, orientada a la gestión de usuarios, productos, ventas y sucursales.
-La aplicación implementa Clean Architecture, consumiendo una API REST proporcionada por un backend desarrollado en Node.js con Express, lo que garantiza una solución escalable, mantenible y bien estructurada.
+La aplicación implementa Clean Architecture,Riverpod para el control de estados, consumiendo una API REST proporcionada por un backend desarrollado en Node.js con Express, lo que garantiza una solución escalable, mantenible y bien estructurada.
 
 ## Características Principales
 
